@@ -1,0 +1,14 @@
+POST http://localhost:8081/
+
+###
+
+curl -X POST https://www.otto.de/san-srch-suggest-api/completion?q=hammer
+
+###
+
+POST http://github.com/
+
+
+###
+
+POST https://www.otto.de/san-srch-suggest-api/completion?q=hammer
