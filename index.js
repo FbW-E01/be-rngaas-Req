@@ -7,6 +7,8 @@ dotenv.config();
 // Printing out an example of a value stored in .env
 console.log("API_KEY is " + process.env.API_KEY)
 
+console.log(process.env);
+
 function requestHandler(request, response) {
     console.log("Request received, making random number!")
     const randomNumber = Math.round(Math.random() * 99999);
